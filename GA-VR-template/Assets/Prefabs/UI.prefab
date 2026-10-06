@@ -1467,7 +1467,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4779813318549682532, guid: 870459f1cb8d7b7428337cc5935feb67, type: 3}
       propertyPath: m_Options.m_Options.Array.data[0].m_Text
-      value: DawnOfTheRepublic
+      value: OverwriteMe-TemplateScene
       objectReference: {fileID: 0}
     - target: {fileID: 4779813318549682532, guid: 870459f1cb8d7b7428337cc5935feb67, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size

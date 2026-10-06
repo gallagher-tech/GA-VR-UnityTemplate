@@ -582,19 +582,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8370507163215772515, guid: a0a5da961a28170429ffa3459212a40d, type: 3}
       propertyPath: m_Options.m_Options.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 8370507163215772515, guid: a0a5da961a28170429ffa3459212a40d, type: 3}
-      propertyPath: m_Options.m_Options.Array.data[1].m_Text
-      value: DieIsCast
-      objectReference: {fileID: 0}
-    - target: {fileID: 8370507163215772515, guid: a0a5da961a28170429ffa3459212a40d, type: 3}
-      propertyPath: m_Options.m_Options.Array.data[2].m_Text
-      value: PeopleOfTheRepublic
-      objectReference: {fileID: 0}
-    - target: {fileID: 8370507163215772515, guid: a0a5da961a28170429ffa3459212a40d, type: 3}
-      propertyPath: m_Options.m_Options.Array.data[3].m_Text
-      value: WhereTexasBecameTexas
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8707219948408081473, guid: a0a5da961a28170429ffa3459212a40d, type: 3}
       propertyPath: m_AnchorMax.x

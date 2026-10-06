@@ -7,12 +7,10 @@ G&A starter project for Meta Quest VR previz apps: URP, XR Interaction Toolkit, 
 * **Product name:** `ga-unity-vr-template`, Android ID `com.ga.ga_unity_vr_template`. Rename both in *Project Settings > Player* when starting a new project from this template.
 * **Normcore:** the app key lives in `Assets/Normal/Resources/NormcoreAppSettings.asset`. Swap in a project-specific key for each new project.
 
-## Included scenes
-Carried over from the original previz and pending cleanup:
-* Where Texas Became Texas
-* Dawn of the Republic
-* People of Texas
-* The Die is Cast
+## Scenes
+* `Assets/Scenes/OverwriteMe-TemplateScene.unity`: the starter scene, with `ExampleModel-Texas` as placeholder geometry. Duplicate or overwrite it for your project.
+* The build scene list (*File > Build Profiles > Scene List*) and the in-headset scene dropdown both contain only this scene.
+* **Adding a scene:** add it to the Scene List, then add its exact scene name as a dropdown option in `Assets/Prefabs/Normal XR System.prefab` (the rig the scene uses; open the prefab and edit its UI Dropdown). The dropdown loads scenes by name, so the two must match.
 
 ## Usage
 The app is built to use Oculus headsets. When running you can change what experience you are looking at through a dropdown and select a local h.264 `.mp4` file to map onto the projection/LED surface via a file browser.
@@ -42,5 +40,9 @@ There are two ways to run the app: via Quest link on a PC or as a standalone bui
 	```
 * Run the build on the headset
 
-## Building 
-To build the Unity application, in Unity open the "build profiles" window and select whether you want to make a Windows or Android build. Then hit the "Build" button and choose a build location.
+## Building
+Open *File > Build Profiles* and check the Scene List first.
+* **Windows (exe, for Meta Horizon Link):** select *Windows*, then *Build*. Ship the whole output folder zipped, not just the exe.
+* **Quest (apk, for SideQuest):** select the *Quest APK* profile, then *Build*. Raise *Version* and *Bundle Version Code* in Player Settings before each delivery.
+
+Build into `Builds/` (gitignored) or a folder outside the repo, never inside `Assets/`.
