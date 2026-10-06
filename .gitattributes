@@ -1,2 +1,31 @@
-# Auto detect text files and perform LF normalization
+# Auto detect text files and normalize line endings to LF in the repo
 * text=auto
+
+# Unity YAML (.unity, .prefab, .asset, .mat, .meta) is left to auto-detection above, since
+# some .asset files (e.g. LightingData.asset) are binary and must not be line-ending converted.
+*.cs diff=csharp
+
+# Binary assets: never touch line endings or try to diff
+*.fbx  binary
+*.FBX  binary
+*.obj  binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.psd  binary
+*.tga  binary
+*.exr  binary
+*.hdr  binary
+*.tif  binary
+*.mp4  binary
+*.mov  binary
+*.wav  binary
+*.mp3  binary
+*.ogg  binary
+*.ttf  binary
+*.otf  binary
+*.dll  binary
+*.so   binary
+*.aar  binary
+*.jar  binary
+*.pdf  binary

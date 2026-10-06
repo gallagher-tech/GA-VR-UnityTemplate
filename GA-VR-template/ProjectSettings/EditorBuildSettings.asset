@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/DieIsCast.unity
+    guid: 48906df93f7d7d54ebeaa04407c89968
+  - enabled: 1
+    path: Assets/Scenes/DawnOfTheRepublic.unity
+    guid: cbc250cf753804444a1743913f3f35c4
+  - enabled: 1
+    path: Assets/Scenes/PeopleOfTheRepublic.unity
+    guid: 2de5abbbf1a8eda40ab7661a73b64096
+  - enabled: 1
+    path: Assets/Scenes/WhereTexasBecameTexas.unity
+    guid: a6cce8dd07b2be6409cc1e2f460d2750
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 47d484dce3c5ff14bbd9854899fe8f94, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f5e8f87dfc4e2ab4188f2cdb434a63d8, type: 2}
